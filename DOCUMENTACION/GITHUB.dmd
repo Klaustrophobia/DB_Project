@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="GITHUB" id="32BF4EA5-2DCA-8F8B-EF90-476EEC8393B3" version="3.5">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-02-19 22:58:51 UTC</createdTime>
+<ownerDesignName>GITHUB</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>32BF4EA5-2DCA-8F8B-EF90-476EEC8393B3</designId>
+</OSDM_Design>

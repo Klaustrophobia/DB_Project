@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="72652D7F-1A6A-5000-2D87-6C5E0BE7823B" name="TBL_COLABORADORES">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-02-19 23:25:34 UTC</createdTime>
+<ownerDesignName>GITHUB</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_COLABORADOR" id="076C1EEC-27E2-4025-031D-B5A0A0563471">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-02-19 23:26:04 UTC</createdTime>
+<ownerDesignName>GITHUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_REPOSITORIO" id="2A9F55D3-397A-75D0-3512-F44C1FA465E8">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-02-19 23:36:05 UTC</createdTime>
+<ownerDesignName>GITHUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="366FE735-6302-83AE-8960-C4225412E83C" referredColumn="47313D94-BC08-623C-9EF3-140ADA3BB751"/>
+</associations>
+</Column>
+<Column name="NIVEL_PERMISO" id="C04A1185-8C55-521E-968E-5A3949B50466">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-02-19 23:27:21 UTC</createdTime>
+<ownerDesignName>GITHUB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_UNION" id="C57293AB-65AE-FEF5-D6E1-F1AB5336D602">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-02-19 23:27:21 UTC</createdTime>
+<ownerDesignName>GITHUB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ULTIMA_FECHA_ACCESO" id="0DD0BE9D-043C-D2A4-C64C-10C03353B2BF">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-02-19 23:27:21 UTC</createdTime>
+<ownerDesignName>GITHUB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATUS" id="2C766E7E-25C9-A992-555B-B07496C56478">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-02-19 23:27:21 UTC</createdTime>
+<ownerDesignName>GITHUB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMENTARIOS" id="F72FD0E4-1527-891C-F26C-DB5D918C56C0">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-02-19 23:27:21 UTC</createdTime>
+<ownerDesignName>GITHUB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8804500C-51D1-CF70-795A-7EEEA9A994A2" name="COLABORADORES_PK">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-02-19 23:26:04 UTC</createdTime>
+<ownerDesignName>GITHUB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="076C1EEC-27E2-4025-031D-B5A0A0563471"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="95A616D6-6E55-4DE5-29F9-C761E4924112" name="TBL_COLABORADORES_TBL_Repositorio_FK">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-02-19 23:36:05 UTC</createdTime>
+<ownerDesignName>GITHUB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2A9F55D3-397A-75D0-3512-F44C1FA465E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

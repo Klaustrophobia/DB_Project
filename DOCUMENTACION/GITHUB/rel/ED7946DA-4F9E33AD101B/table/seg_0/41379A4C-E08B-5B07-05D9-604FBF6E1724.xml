@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="41379A4C-E08B-5B07-05D9-604FBF6E1724" name="TBL_COMENTARIOS">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-02-20 09:26:54 UTC</createdTime>
+<ownerDesignName>GITHUB</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_COMENTARIO" id="9CBCCC5B-620B-D654-AF1E-24ECF263FD04">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-02-20 09:27:16 UTC</createdTime>
+<ownerDesignName>GITHUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_USUARIO" id="CF29041E-F9E8-F25A-3E46-C9B94220E70D">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-02-20 22:09:58 UTC</createdTime>
+<ownerDesignName>GITHUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="302BE069-52FE-901D-7083-EF1EE2C952B1" referredColumn="65885124-EC2F-D213-1B60-442542CA23AD"/>
+</associations>
+</Column>
+<Column name="FECHA_COMENTARIO" id="9EE56B25-00F8-62DD-B218-88D01C64EEDA">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-02-20 10:07:47 UTC</createdTime>
+<ownerDesignName>GITHUB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMENTARIO" id="907B5674-3202-31F6-0E57-568E863C5018">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-02-20 10:11:39 UTC</createdTime>
+<ownerDesignName>GITHUB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9D2A3798-9C3C-2827-4C3A-37257C041BC1" name="TBL_COMENTARIOS_PK">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-02-20 09:27:16 UTC</createdTime>
+<ownerDesignName>GITHUB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9CBCCC5B-620B-D654-AF1E-24ECF263FD04"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DA3DB954-3484-4D3F-D309-6B243C7ABC39" name="TBL_COMENTARIOS_USUARIOS_FK">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-02-20 22:09:58 UTC</createdTime>
+<ownerDesignName>GITHUB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CF29041E-F9E8-F25A-3E46-C9B94220E70D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

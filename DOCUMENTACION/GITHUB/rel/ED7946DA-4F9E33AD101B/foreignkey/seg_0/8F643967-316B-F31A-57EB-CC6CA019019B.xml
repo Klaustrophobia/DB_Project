@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8F643967-316B-F31A-57EB-CC6CA019019B" containerWithKeyObject="B5E8A1C5-AE73-D7FA-7873-9A727560CABC" localFKIndex="40BD96FF-FA34-5DBF-FA8B-134D4FD7ABC6" name="TBL_ALERTA_SEGURIDAD_TBL_Repositorio_FK">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-02-20 23:45:36 UTC</createdTime>
+<ownerDesignName>GITHUB</ownerDesignName>
+<referredTableLongName>TBL_Repositorio</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>88483D41-2875-45F1-827A-98F8FC652931</referredTableID>
+<keyObject>5F2239CC-30C3-5F09-BA4E-32150A175046</keyObject>
+<referredKeyID>5F2239CC-30C3-5F09-BA4E-32150A175046</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_REPOSITORIO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
