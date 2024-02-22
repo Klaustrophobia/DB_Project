@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="05FA6CEF-4A19-C2FC-F9FD-A40851B918C2" name="TBL_SPONSOR_PROPIO">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-02-22 23:03:31 UTC</createdTime>
+<ownerDesignName>GITHUB</ownerDesignName>
+<ordsAlias>table_30</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_SPONSOR_PROPIO" id="91B2ACEE-5674-E7E0-0529-AC39C0F66C4B">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-02-22 23:06:23 UTC</createdTime>
+<ownerDesignName>GITHUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_SPONSOR_ELEGIBLE" id="56323FCB-1C76-FDCC-9861-BAB090E256C9">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-02-22 23:07:52 UTC</createdTime>
+<ownerDesignName>GITHUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="89CC0050-DD1F-BDA5-982E-51EA01D045B4" referredColumn="99FBFE10-1AAC-FD32-9D21-4CDFD37C6A2D"/>
+</associations>
+</Column>
+<Column name="ID_USUARIO" id="E352DF68-6C28-4DCE-8361-EE334B63C5AB">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-02-22 23:08:05 UTC</createdTime>
+<ownerDesignName>GITHUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DE175188-A4F3-FABA-0D2D-2B2E5D7C229F" referredColumn="65885124-EC2F-D213-1B60-442542CA23AD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3391F8DD-DF0F-11EE-A1C4-1DCCB74DD491" name="TBL_SPONSOR_PROPIO_PK">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-02-22 23:07:33 UTC</createdTime>
+<ownerDesignName>GITHUB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="91B2ACEE-5674-E7E0-0529-AC39C0F66C4B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E44CFDA0-273F-CEB8-C64F-6637A8C23074" name="TBL_SPONSOR_PROPIO_TBL_SPONSOR_ELEGIBLE_FK">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-02-22 23:07:52 UTC</createdTime>
+<ownerDesignName>GITHUB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="56323FCB-1C76-FDCC-9861-BAB090E256C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="83881A41-A80A-D206-2E55-3F08458C0C95" name="TBL_SPONSOR_PROPIO_USUARIOS_FK">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-02-22 23:08:05 UTC</createdTime>
+<ownerDesignName>GITHUB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E352DF68-6C28-4DCE-8361-EE334B63C5AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
