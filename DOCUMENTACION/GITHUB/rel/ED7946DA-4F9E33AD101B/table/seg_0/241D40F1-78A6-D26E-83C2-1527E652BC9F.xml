@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="241D40F1-78A6-D26E-83C2-1527E652BC9F" name="TBL_MILESTONES">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-02-22 19:59:58 UTC</createdTime>
+<ownerDesignName>GITHUB</ownerDesignName>
+<ordsAlias>table_22</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_MILESTONE" id="AC50428F-C900-D264-C854-292B08BF9E47">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-02-22 20:01:30 UTC</createdTime>
+<ownerDesignName>GITHUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TITTLE_MILESTONE" id="5758F5AB-DD9D-6175-8B2C-3A7840DD5797">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-02-22 20:01:30 UTC</createdTime>
+<ownerDesignName>GITHUB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPTION" id="57698538-2C92-75D5-088C-A30E4BD8203F">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-02-22 20:01:30 UTC</createdTime>
+<ownerDesignName>GITHUB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DUE_DATE" id="0FBEDC7E-BA0A-043D-A2BA-64349D9958CA">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-02-22 20:01:30 UTC</createdTime>
+<ownerDesignName>GITHUB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_REPOSITORIO" id="D49131EC-A2AD-CC3E-34CE-7BA01B2EE4AE">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-02-22 20:01:36 UTC</createdTime>
+<ownerDesignName>GITHUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6CE5EE7D-3496-61B5-28DB-4442E4C20407" referredColumn="47313D94-BC08-623C-9EF3-140ADA3BB751"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9BA23025-4E7A-B62D-966A-E61E1DCF5960" name="TBL_MILESTONES_PK">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-02-22 20:01:30 UTC</createdTime>
+<ownerDesignName>GITHUB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC50428F-C900-D264-C854-292B08BF9E47"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="82A97FF1-0F80-E498-9CEB-AB56D414DD45" name="TBL_MILESTONES_TBL_Repositorio_FK">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-02-22 20:01:36 UTC</createdTime>
+<ownerDesignName>GITHUB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D49131EC-A2AD-CC3E-34CE-7BA01B2EE4AE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

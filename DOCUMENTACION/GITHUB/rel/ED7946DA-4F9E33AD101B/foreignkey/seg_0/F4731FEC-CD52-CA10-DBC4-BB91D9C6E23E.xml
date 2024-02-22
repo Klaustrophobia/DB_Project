@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F4731FEC-CD52-CA10-DBC4-BB91D9C6E23E" containerWithKeyObject="3667EB50-D904-20D6-FB2F-0AE8A3BFECED" localFKIndex="33B2FC8B-12E3-C049-1267-4B97150DD025" name="TBL_DISCUSS_COMMENT_TBL_DISCUSSION_FK">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-02-22 20:51:58 UTC</createdTime>
+<ownerDesignName>GITHUB</ownerDesignName>
+<referredTableLongName>TBL_DISCUSSION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A4B0FD66-282F-C050-BF17-D7891E9A52DC</referredTableID>
+<keyObject>7879D388-C4F7-23D2-EE7D-8DB92F6BA175</keyObject>
+<referredKeyID>7879D388-C4F7-23D2-EE7D-8DB92F6BA175</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_DISCUSION</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

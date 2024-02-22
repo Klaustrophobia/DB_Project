@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="239F00EE-00EC-4E43-4353-554CB5ED179E" containerWithKeyObject="3045830F-71B3-B659-EBBF-F94B2A38D0FB" localFKIndex="C0951D6E-D2F4-C142-23CC-1D46B51C1F29" name="TBL_FILE_MODIF_TBL_COMMITS_FK">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-02-22 20:19:02 UTC</createdTime>
+<ownerDesignName>GITHUB</ownerDesignName>
+<referredTableLongName>TBL_COMMITS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>41AA2175-B725-C3EB-9926-6784D813D0BE</referredTableID>
+<keyObject>DE6D4259-3C1E-4E95-EE7D-0F0D45A94605</keyObject>
+<referredKeyID>DE6D4259-3C1E-4E95-EE7D-0F0D45A94605</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_COMMIT</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

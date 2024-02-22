@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="41AA2175-B725-C3EB-9926-6784D813D0BE" name="TBL_COMMITS">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-02-22 19:52:32 UTC</createdTime>
+<ownerDesignName>GITHUB</ownerDesignName>
+<ordsAlias>table_20</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_COMMIT" id="CF49A47B-4ED9-A2C5-FFA6-2E989DA54C4A">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-02-22 19:53:54 UTC</createdTime>
+<ownerDesignName>GITHUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMMIT_MESSAGE" id="C2C2B36D-2C6F-B4BC-36A3-15042BEB5D43">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-02-22 19:53:54 UTC</createdTime>
+<ownerDesignName>GITHUB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMMIT_DATE" id="A77FFF16-233D-EC18-4E4B-955399FE21E2">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-02-22 19:53:54 UTC</createdTime>
+<ownerDesignName>GITHUB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CHANGES_COUNT" id="D6624FB5-025E-05F1-3864-51137373F94A">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-02-22 19:53:54 UTC</createdTime>
+<ownerDesignName>GITHUB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_USUARIO" id="C1517298-55F4-87AD-AD6A-F18E069D6769">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-02-22 19:54:55 UTC</createdTime>
+<ownerDesignName>GITHUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F65E0BF3-6A73-5BCF-F73F-6D7ADF412E0C" referredColumn="65885124-EC2F-D213-1B60-442542CA23AD"/>
+</associations>
+</Column>
+<Column name="ID_REPOSITORIO" id="25A74829-582F-CA53-ED93-246C52D7016F">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-02-22 19:55:01 UTC</createdTime>
+<ownerDesignName>GITHUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="19B28A1B-B8FF-5A6C-228F-4B6D1F73CADE" referredColumn="47313D94-BC08-623C-9EF3-140ADA3BB751"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DE6D4259-3C1E-4E95-EE7D-0F0D45A94605" name="TBL_COMMITS_PK">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-02-22 19:53:54 UTC</createdTime>
+<ownerDesignName>GITHUB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CF49A47B-4ED9-A2C5-FFA6-2E989DA54C4A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BC331917-359A-E35A-D20A-F60783684CAB" name="TBL_COMMITS_USUARIOS_FK">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-02-22 19:54:55 UTC</createdTime>
+<ownerDesignName>GITHUB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C1517298-55F4-87AD-AD6A-F18E069D6769"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="789CCECB-EDE2-EEEE-CE46-55DA48295DAC" name="TBL_COMMITS_TBL_Repositorio_FK">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-02-22 19:55:01 UTC</createdTime>
+<ownerDesignName>GITHUB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="25A74829-582F-CA53-ED93-246C52D7016F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

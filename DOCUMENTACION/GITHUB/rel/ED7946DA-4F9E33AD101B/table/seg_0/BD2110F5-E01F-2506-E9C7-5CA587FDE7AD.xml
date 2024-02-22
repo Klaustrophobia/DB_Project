@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="802222FD-7BE4-8A5E-0AC2-D2AE8947D3B1" name="USUARIOS">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BD2110F5-E01F-2506-E9C7-5CA587FDE7AD" name="TBL_FILE">
 <createdBy>Lalos</createdBy>
-<createdTime>2024-02-19 23:19:02 UTC</createdTime>
+<createdTime>2024-02-22 20:22:56 UTC</createdTime>
 <ownerDesignName>GITHUB</ownerDesignName>
-<ordsAlias>table_5</ordsAlias>
+<ordsAlias>table_25</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID_USUARIO" id="65885124-EC2F-D213-1B60-442542CA23AD">
+<Column name="ID_FILE" id="62A9A50B-65F7-B2B7-9280-E2C73FA0F11C">
 <createdBy>Lalos</createdBy>
-<createdTime>2024-02-19 23:23:17 UTC</createdTime>
+<createdTime>2024-02-22 20:28:11 UTC</createdTime>
 <ownerDesignName>GITHUB</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,9 +18,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="NOMBRE" id="79049D5E-419C-CE65-47A4-93A9B32B4691">
+<Column name="NOMBRE_ARCHIVO" id="E26D8C00-C298-E994-AD45-5D152ABADB75">
 <createdBy>Lalos</createdBy>
-<createdTime>2024-02-19 23:23:17 UTC</createdTime>
+<createdTime>2024-02-22 20:28:11 UTC</createdTime>
 <ownerDesignName>GITHUB</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -30,9 +30,9 @@
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="APELLIDO" id="D586F3B8-0103-7B17-D0ED-F4C635EED968">
+<Column name="EXTENSION" id="36E832FF-A066-A29D-EEE6-F0521EA9739A">
 <createdBy>Lalos</createdBy>
-<createdTime>2024-02-19 23:23:17 UTC</createdTime>
+<createdTime>2024-02-22 20:28:11 UTC</createdTime>
 <ownerDesignName>GITHUB</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -42,33 +42,20 @@
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="CORREO" id="B9751AE8-9056-C02D-D06D-852A89230859">
+<Column name="TAMANIO" id="4110FE9E-626D-4501-7BF3-7BF4813EAEFC">
 <createdBy>Lalos</createdBy>
-<createdTime>2024-02-19 23:23:17 UTC</createdTime>
+<createdTime>2024-02-22 20:31:32 UTC</createdTime>
 <ownerDesignName>GITHUB</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>40</dataTypeSize>
-<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="PASSWORD" id="9A9949C0-49E0-D7F0-992E-C5EE3B4D5FD9">
+<Column name="DATE_LAST_MODIF" id="929985E1-5634-5970-B3DF-5F0381C6E407">
 <createdBy>Lalos</createdBy>
-<createdTime>2024-02-19 23:23:17 UTC</createdTime>
-<ownerDesignName>GITHUB</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>20</dataTypeSize>
-<ownDataTypeParameters>20,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="FECHA_CREACION_USUARIO" id="144E63F7-EFE2-11F8-5BFA-02BB6BBB6A01">
-<createdBy>Lalos</createdBy>
-<createdTime>2024-02-19 23:23:17 UTC</createdTime>
+<createdTime>2024-02-22 20:31:32 UTC</createdTime>
 <ownerDesignName>GITHUB</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -77,41 +64,41 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="UBICACION" id="65C5EDB7-3119-E38C-A4FF-BA2EC9E1CE65">
+<Column name="ID_REPOSITORIO" id="B2CFC024-FFA2-A0F6-7598-866124AE9557">
 <createdBy>Lalos</createdBy>
-<createdTime>2024-02-19 23:23:17 UTC</createdTime>
+<createdTime>2024-02-22 20:31:41 UTC</createdTime>
 <ownerDesignName>GITHUB</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>30</dataTypeSize>
-<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="BIOGRAFIA" id="5DDA9961-7173-D12B-86CF-48341F7E3028">
-<createdBy>Lalos</createdBy>
-<createdTime>2024-02-19 23:23:17 UTC</createdTime>
-<ownerDesignName>GITHUB</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5C24E0EC-2810-7A90-1C60-564F84456F35" referredColumn="47313D94-BC08-623C-9EF3-140ADA3BB751"/>
+</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="79E4B218-874C-F700-D35A-2E9C72D6DF03" name="USUARIOS_PK">
+<ind_PK_UK id="51E9574E-BF55-6E8F-500A-77406B3E7BBC" name="TBL_FILE_PK">
 <createdBy>Lalos</createdBy>
-<createdTime>2024-02-19 23:23:17 UTC</createdTime>
+<createdTime>2024-02-22 20:28:11 UTC</createdTime>
 <ownerDesignName>GITHUB</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="65885124-EC2F-D213-1B60-442542CA23AD"/>
+<colUsage columnID="62A9A50B-65F7-B2B7-9280-E2C73FA0F11C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5AC6DBDF-831E-7381-347E-D29880BEFA92" name="TBL_FILE_TBL_Repositorio_FK">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-02-22 20:31:41 UTC</createdTime>
+<ownerDesignName>GITHUB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B2CFC024-FFA2-A0F6-7598-866124AE9557"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
