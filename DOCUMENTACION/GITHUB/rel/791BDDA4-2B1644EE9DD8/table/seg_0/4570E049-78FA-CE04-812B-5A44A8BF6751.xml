@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4570E049-78FA-CE04-812B-5A44A8BF6751" name="TBL_FILE_MODIF">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-03-31 04:21:05 UTC</createdTime>
+<ownerDesignName>GUTHUB</ownerDesignName>
+<importedID>3045830F-71B3-B659-EBBF-F94B2A38D0FB</importedID>
+<ordsAlias>table_24</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_MODIFICATION" id="4681EB07-BC1D-5A72-5B1A-CA33B84FBF4C">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-03-31 04:21:05 UTC</createdTime>
+<ownerDesignName>GUTHUB</ownerDesignName>
+<importedID>A101FBC4-06AF-3ADF-56D0-5B1504498263</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_COMMIT" id="8CC9FAC8-8998-CA80-348A-E4F9F9C06472">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-03-31 04:21:05 UTC</createdTime>
+<ownerDesignName>GUTHUB</ownerDesignName>
+<importedID>82F2A125-91CB-C5D6-32A1-7164903C5092</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9E6894CB-1124-D16D-E64C-265F59BE5BAC" referredColumn="2886E1C0-0A90-A2DC-A345-89A3A76C7A66"/>
+</associations>
+</Column>
+<Column name="FILE_PATH" id="10528DEE-C044-5B0E-F14F-5247730F9F31">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-03-31 04:21:05 UTC</createdTime>
+<ownerDesignName>GUTHUB</ownerDesignName>
+<importedID>CDFC4C05-938F-9DF3-8C23-45D9F642669A</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LINES_ADDED" id="667DBCCD-CE94-CFBC-E9E8-96D48362A82C">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-03-31 04:21:05 UTC</createdTime>
+<ownerDesignName>GUTHUB</ownerDesignName>
+<importedID>541D7413-C0F8-663F-EDCD-0FC19640F725</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LINES_DELETED" id="43259F2D-720E-5CC9-AD2A-E72501B9BD74">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-03-31 04:21:05 UTC</createdTime>
+<ownerDesignName>GUTHUB</ownerDesignName>
+<importedID>6041D720-6569-9357-B98B-0205B2B99E32</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>120</dataTypeSize>
+<ownDataTypeParameters>120,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MODIF_TYPE" id="E9984BC8-CAF5-675A-91FB-0D3414E931FB">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-03-31 04:21:05 UTC</createdTime>
+<ownerDesignName>GUTHUB</ownerDesignName>
+<importedID>C7842177-1618-D314-4713-BA300A889146</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>120</dataTypeSize>
+<ownDataTypeParameters>120,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="22DDCF0C-A1C1-79F9-7CFA-C9E0F65717EE" name="TBL_FILE_MODIF_PK">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-03-31 04:21:05 UTC</createdTime>
+<ownerDesignName>GUTHUB</ownerDesignName>
+<importedID>8F21FF05-D2A1-DF38-02AB-D6F16DF28450</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4681EB07-BC1D-5A72-5B1A-CA33B84FBF4C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="360753AC-A4B3-1431-3F17-A918A40202D8" name="TBL_FILE_MODIF_TBL_COMMITS_FK">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-03-31 04:21:05 UTC</createdTime>
+<ownerDesignName>GUTHUB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8CC9FAC8-8998-CA80-348A-E4F9F9C06472"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

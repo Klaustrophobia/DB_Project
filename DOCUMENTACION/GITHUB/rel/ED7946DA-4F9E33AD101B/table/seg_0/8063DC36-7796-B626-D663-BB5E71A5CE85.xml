@@ -102,7 +102,7 @@
 <colUsage columnID="AFF1E8BF-5E76-4E32-D927-14FDBAB224AD"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="C401C2AD-56C5-BB21-2408-141355BDBDA9" name="TBL_CONTRIBUIDORES_USUARIOS_FK">
+<ind_PK_UK id="C401C2AD-56C5-BB21-2408-141355BDBDA9" name="CONTRIBUIDORES_USUARIOS_FK">
 <createdBy>Lalos</createdBy>
 <createdTime>2024-02-22 20:08:49 UTC</createdTime>
 <ownerDesignName>GITHUB</ownerDesignName>
@@ -112,7 +112,7 @@
 <colUsage columnID="AFF1E8BF-5E76-4E32-D927-14FDBAB224AD"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="4ABB8E2D-10A6-30C9-12C1-CF899B7510DA" name="TBL_CONTRIBUIDORES_TBL_Repositorio_FK">
+<ind_PK_UK id="4ABB8E2D-10A6-30C9-12C1-CF899B7510DA" name="CONTRIBUIDORES_REPOSITORIO">
 <createdBy>Lalos</createdBy>
 <createdTime>2024-02-22 20:11:23 UTC</createdTime>
 <ownerDesignName>GITHUB</ownerDesignName>

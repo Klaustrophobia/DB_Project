@@ -57,7 +57,7 @@
 <colUsage columnID="BBA6EA95-D41C-559F-1F95-A217AF6DC270"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="D8B3B8C4-4F3A-A17E-FC41-E4F8B1514765" name="TBL_MIEMBRO_EQUIPO_TBL_EQUIPO_FK">
+<ind_PK_UK id="D8B3B8C4-4F3A-A17E-FC41-E4F8B1514765" name="MIEMBRO_EQUIPO">
 <createdBy>Lalos</createdBy>
 <createdTime>2024-02-20 23:23:46 UTC</createdTime>
 <ownerDesignName>GITHUB</ownerDesignName>

@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="40DEB39E-480B-51A6-3DDC-242E47D92A9D" name="TBL_GIST">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-03-31 04:19:40 UTC</createdTime>
+<ownerDesignName>GUTHUB</ownerDesignName>
+<importedID>ABA4AE0D-4CD3-02BD-9C36-A142BBC4BD90</importedID>
+<ordsAlias>table_19</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_GIST" id="E5F268C6-5F1E-1075-D9AF-10E2E0920C5A">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-03-31 04:19:40 UTC</createdTime>
+<ownerDesignName>GUTHUB</ownerDesignName>
+<importedID>ED360982-98C8-B9AB-7460-8125B582ED8F</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_USUARIO" id="0BB2E8FA-C0FD-2A0A-EB75-E06BC1AEE147">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-03-31 04:19:40 UTC</createdTime>
+<ownerDesignName>GUTHUB</ownerDesignName>
+<importedID>13EF8EE6-7830-AAC3-B62F-064EE59B937B</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="888D51FF-5F3F-1B70-2AD5-F9FA936C930C" referredColumn="ECC7C759-FA12-D909-AB11-776DCD4BEFF8"/>
+</associations>
+</Column>
+<Column name="DESCRIPTION_GIST" id="93A09C57-BF82-3DCC-467B-A14224BA33A5">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-03-31 04:19:40 UTC</createdTime>
+<ownerDesignName>GUTHUB</ownerDesignName>
+<importedID>8D3DEAD9-3CB7-547D-A3F5-24375E988603</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_CREATION" id="5FC78B86-63D4-B73B-DA51-8D1533EAFD56">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-03-31 04:19:40 UTC</createdTime>
+<ownerDesignName>GUTHUB</ownerDesignName>
+<importedID>0F9C51AB-492F-722D-1665-DAF5D57DD7C9</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B36F5275-CE2D-F491-E3C6-35A064CA8A43" name="TBL_GIST_PK">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-03-31 04:19:40 UTC</createdTime>
+<ownerDesignName>GUTHUB</ownerDesignName>
+<importedID>A1C48CA6-1166-12AB-9C9D-3B29B5AC9949</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E5F268C6-5F1E-1075-D9AF-10E2E0920C5A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C4C46D6B-D876-1275-8C7D-14301E007684" name="TBL_GIST_USUARIOS_FK">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-03-31 04:19:40 UTC</createdTime>
+<ownerDesignName>GUTHUB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0BB2E8FA-C0FD-2A0A-EB75-E06BC1AEE147"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

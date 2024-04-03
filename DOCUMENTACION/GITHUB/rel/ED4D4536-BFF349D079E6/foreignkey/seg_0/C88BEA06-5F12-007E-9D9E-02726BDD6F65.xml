@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C88BEA06-5F12-007E-9D9E-02726BDD6F65" containerWithKeyObject="90A642D3-AA16-71FA-54BA-477BEDA294B5" localFKIndex="0BC438DA-5F3E-0772-72F2-F71E9C26769A" name="TBL_EQUIPO_TBL_ORGANIZACION_FK">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-03-31 04:19:40 UTC</createdTime>
+<ownerDesignName>GUTHUB</ownerDesignName>
+<importedID>4DEF1FAF-2EC6-99A8-7E59-EC66B0ACB490</importedID>
+<referredTableLongName>TBL_ORGANIZACION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9549FBD8-50C5-602B-AB9B-567D19CC3E38</referredTableID>
+<keyObject>335D318A-A233-146C-34EC-E82E97C3251A</keyObject>
+<referredKeyID>335D318A-A233-146C-34EC-E82E97C3251A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_ORGANIZACION</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

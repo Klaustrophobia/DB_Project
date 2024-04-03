@@ -94,7 +94,7 @@
 <colUsage columnID="FA0DCE50-F5AC-3179-3206-CDB7BFFAB1D6"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="F3EC88F7-7B96-25D6-2A07-138FCE597B86" name="TBL_DEPLOYMENT_USUARIOS_FK">
+<ind_PK_UK id="F3EC88F7-7B96-25D6-2A07-138FCE597B86" name="DEPLOYMENT_USUARIOS">
 <createdBy>Lalos</createdBy>
 <createdTime>2024-02-22 20:35:55 UTC</createdTime>
 <ownerDesignName>GITHUB</ownerDesignName>
@@ -104,7 +104,7 @@
 <colUsage columnID="91B61A63-1DC7-9E57-7A01-89DF35473B96"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="3CE3E116-6293-D879-5842-C45C9CCF0E5B" name="TBL_DEPLOYMENT_TBL_Repositorio_FK">
+<ind_PK_UK id="3CE3E116-6293-D879-5842-C45C9CCF0E5B" name="DEPLOYMENT_REPOSITORIO">
 <createdBy>Lalos</createdBy>
 <createdTime>2024-02-22 20:36:00 UTC</createdTime>
 <ownerDesignName>GITHUB</ownerDesignName>

@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="90A642D3-AA16-71FA-54BA-477BEDA294B5" name="TBL_EQUIPO">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-03-31 04:19:40 UTC</createdTime>
+<ownerDesignName>GUTHUB</ownerDesignName>
+<importedID>17E64F32-3EC1-1C32-77BD-59BA03BE71E0</importedID>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_EQUIPO" id="495A30A0-2325-2E55-98CA-70A2891915C8">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-03-31 04:19:40 UTC</createdTime>
+<ownerDesignName>GUTHUB</ownerDesignName>
+<importedID>04BB39FE-E0AF-2499-C6A2-81DAC2661BE5</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_ORGANIZACION" id="A633A48A-D96A-D2AE-734A-8634BFE34E40">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-03-31 04:19:40 UTC</createdTime>
+<ownerDesignName>GUTHUB</ownerDesignName>
+<importedID>79FD0A71-FDDD-D0B5-670B-B64AC9DE893D</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C88BEA06-5F12-007E-9D9E-02726BDD6F65" referredColumn="251E5A9F-C1DA-8780-C7D5-D148DC3B2E9C"/>
+</associations>
+</Column>
+<Column name="NOMBRE_EQUIPO" id="DBFD3744-D3AC-288E-2758-0D7B4F2533CC">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-03-31 04:19:40 UTC</createdTime>
+<ownerDesignName>GUTHUB</ownerDesignName>
+<importedID>8037BA66-CB4A-56D7-70D3-3EB7F78C8645</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPTION" id="2F321FF9-2EF3-A79E-9766-FEC3CFCD4F1B">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-03-31 04:19:40 UTC</createdTime>
+<ownerDesignName>GUTHUB</ownerDesignName>
+<importedID>CE28DAD1-38F5-33CB-38D8-F7C7C0C68767</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_CREACION" id="4DD2DDB5-B68C-57F4-DDBF-23D2A83A5B3B">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-03-31 04:19:40 UTC</createdTime>
+<ownerDesignName>GUTHUB</ownerDesignName>
+<importedID>B2A819B2-6FAC-8750-BD17-06905AD4BFBF</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="76D83805-9D5D-5118-ADD8-B8684C782E71" name="TBL_EQUIPO_PK">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-03-31 04:19:40 UTC</createdTime>
+<ownerDesignName>GUTHUB</ownerDesignName>
+<importedID>FD650B31-CCD1-EB95-DC6D-C0F9F73F0E2F</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="495A30A0-2325-2E55-98CA-70A2891915C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0BC438DA-5F3E-0772-72F2-F71E9C26769A" name="TBL_EQUIPO_TBL_ORGANIZACION_FK">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-03-31 04:19:40 UTC</createdTime>
+<ownerDesignName>GUTHUB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A633A48A-D96A-D2AE-734A-8634BFE34E40"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

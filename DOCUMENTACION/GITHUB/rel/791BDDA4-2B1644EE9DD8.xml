@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Github(2)" id="791BDDA4-81E2-F090-678C-2B1644EE9DD8" mainViewID="12B7758E-23DB-ACC7-0AD1-98A0BAC21357">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-03-31 04:21:01 UTC</createdTime>
+<ownerDesignName>GUTHUB</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="01DEE4E9-A96F-6436-E35B-6B7381FE1005" name="TBL_CONTRIBUIDORES">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-03-31 04:21:05 UTC</createdTime>
+<ownerDesignName>GUTHUB</ownerDesignName>
+<importedID>8063DC36-7796-B626-D663-BB5E71A5CE85</importedID>
+<ordsAlias>table_23</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CONTRIBUIDOR" id="EE10F81A-5BF1-DA7A-D4AF-228687C0F1D3">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-03-31 04:21:05 UTC</createdTime>
+<ownerDesignName>GUTHUB</ownerDesignName>
+<importedID>0EFF2E5A-F09B-557C-05D8-115928C539D4</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_USUARIO" id="5CBF812E-A013-D9B6-2113-9ECE253E5FE8">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-03-31 04:21:05 UTC</createdTime>
+<ownerDesignName>GUTHUB</ownerDesignName>
+<importedID>AFF1E8BF-5E76-4E32-D927-14FDBAB224AD</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="572201D6-A99D-44C2-918A-757B80A6B2C6" referredColumn="1FF50949-0F56-7AF3-DB3B-EB8B49EF7165"/>
+</associations>
+</Column>
+<Column name="CANTIDAD_CONTRIBUICIONES" id="542B5793-BE33-3026-6DE0-0C233E591783">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-03-31 04:21:05 UTC</createdTime>
+<ownerDesignName>GUTHUB</ownerDesignName>
+<importedID>F0D7F577-DB75-4FCD-5C46-55F54CD6B4FA</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATE_FIRST_CTRB" id="26CAF2D4-494C-B7FE-60A2-B57CBA814102">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-03-31 04:21:05 UTC</createdTime>
+<ownerDesignName>GUTHUB</ownerDesignName>
+<importedID>12ED0F0E-1EFE-365C-4C99-1C6A00BF09BC</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATE_LAST_CTRB" id="5D23EA75-2DF7-109D-E84C-982432AC0AB5">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-03-31 04:21:05 UTC</createdTime>
+<ownerDesignName>GUTHUB</ownerDesignName>
+<importedID>793CFCAA-CA3B-C52D-2FE9-D37A7D98DA76</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_REPOSITORIO" id="A6A69DFF-8D99-FB5E-EAFB-B0F2DA5B4ED7">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-03-31 04:21:05 UTC</createdTime>
+<ownerDesignName>GUTHUB</ownerDesignName>
+<importedID>A2601FB7-8E4C-1479-FA74-9147C868A3B8</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="032F954D-53B2-92F8-64E6-E4C455D3D365" referredColumn="8D269F76-A2CF-D8CA-83F5-D0C41D56EC05"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B0179A15-091F-2821-D3E5-4827D590C3CE" name="TBL_CONTRIBUIDORES_PK">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-03-31 04:21:05 UTC</createdTime>
+<ownerDesignName>GUTHUB</ownerDesignName>
+<importedID>86747891-FEBC-9E43-4942-09339A88612B</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EE10F81A-5BF1-DA7A-D4AF-228687C0F1D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="43CECB21-9719-B452-EE24-318BA28DADD0" name="TBL_CONTRIBUIDORES__UNv2">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-03-31 04:21:05 UTC</createdTime>
+<ownerDesignName>GUTHUB</ownerDesignName>
+<importedID>B4E773C0-274C-A7C2-BF2E-69AA28DC3FCD</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5CBF812E-A013-D9B6-2113-9ECE253E5FE8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BE1356A0-B983-EDD1-72FD-38EDC0F7D233" name="CONTRIBUIDORES_REPOSITORIO">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-03-31 04:21:05 UTC</createdTime>
+<ownerDesignName>GUTHUB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A6A69DFF-8D99-FB5E-EAFB-B0F2DA5B4ED7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="71EB0FD0-9FF8-AD2B-70FE-C46B0D3AF3F7" name="CONTRIBUIDORES_USUARIOS_FK">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-03-31 04:21:05 UTC</createdTime>
+<ownerDesignName>GUTHUB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5CBF812E-A013-D9B6-2113-9ECE253E5FE8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

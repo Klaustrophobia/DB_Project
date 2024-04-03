@@ -149,7 +149,7 @@
 <colUsage columnID="7D3BA9F5-0804-F659-2318-F1AA2A4BC44C"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="52033A56-E8B4-8815-F0AC-0E01EE5CE593" name="TBL_PULL_REQUEST_TBL_Repositorio_FK">
+<ind_PK_UK id="52033A56-E8B4-8815-F0AC-0E01EE5CE593" name="PULL_REQUEST">
 <createdBy>Lalos</createdBy>
 <createdTime>2024-02-20 23:52:57 UTC</createdTime>
 <ownerDesignName>GITHUB</ownerDesignName>

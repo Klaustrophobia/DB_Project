@@ -80,7 +80,7 @@
 <colUsage columnID="AC50428F-C900-D264-C854-292B08BF9E47"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="82A97FF1-0F80-E498-9CEB-AB56D414DD45" name="TBL_MILESTONES_TBL_Repositorio_FK">
+<ind_PK_UK id="82A97FF1-0F80-E498-9CEB-AB56D414DD45" name="TBL_MILESTONES">
 <createdBy>Lalos</createdBy>
 <createdTime>2024-02-22 20:01:36 UTC</createdTime>
 <ownerDesignName>GITHUB</ownerDesignName>

@@ -18,6 +18,34 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="ID_USUARIO" id="DA627BE4-2B27-240D-2034-E288B1C85EC3">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-02-22 20:48:26 UTC</createdTime>
+<ownerDesignName>GITHUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AC761286-B5BD-0988-679A-9DCE1B5FA69A" referredColumn="65885124-EC2F-D213-1B60-442542CA23AD"/>
+</associations>
+</Column>
+<Column name="ID_REPOSITORIO" id="0E487C06-666E-C48D-3499-4E01C87E5C9D">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-02-22 20:49:12 UTC</createdTime>
+<ownerDesignName>GITHUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A9457E7A-34E9-F180-EAFD-5C43A80884B5" referredColumn="47313D94-BC08-623C-9EF3-140ADA3BB751"/>
+</associations>
+</Column>
 <Column name="TITULO" id="0F23D37E-05C8-EA6E-3CFD-F28987A266DC">
 <createdBy>Lalos</createdBy>
 <createdTime>2024-02-22 20:47:58 UTC</createdTime>
@@ -53,34 +81,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="USUARIOS_ID_USUARIO" id="DA627BE4-2B27-240D-2034-E288B1C85EC3">
-<createdBy>Lalos</createdBy>
-<createdTime>2024-02-22 20:48:26 UTC</createdTime>
-<ownerDesignName>GITHUB</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="AC761286-B5BD-0988-679A-9DCE1B5FA69A" referredColumn="65885124-EC2F-D213-1B60-442542CA23AD"/>
-</associations>
-</Column>
-<Column name="TBL_Repositorio_ID_REPOSITORIO" id="0E487C06-666E-C48D-3499-4E01C87E5C9D">
-<createdBy>Lalos</createdBy>
-<createdTime>2024-02-22 20:49:12 UTC</createdTime>
-<ownerDesignName>GITHUB</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="A9457E7A-34E9-F180-EAFD-5C43A80884B5" referredColumn="47313D94-BC08-623C-9EF3-140ADA3BB751"/>
-</associations>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="7879D388-C4F7-23D2-EE7D-8DB92F6BA175" name="TBL_DISCUSSION_PK">
@@ -94,7 +94,7 @@
 <colUsage columnID="90CA212E-3B2D-3806-D52A-49F6705F5D81"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="D12568B4-6255-9871-48A1-3746B54F45B9" name="TBL_DISCUSSION_USUARIOS_FK">
+<ind_PK_UK id="D12568B4-6255-9871-48A1-3746B54F45B9" name="DISCUSSION_USUARIOS">
 <createdBy>Lalos</createdBy>
 <createdTime>2024-02-22 20:48:26 UTC</createdTime>
 <ownerDesignName>GITHUB</ownerDesignName>
@@ -104,7 +104,7 @@
 <colUsage columnID="DA627BE4-2B27-240D-2034-E288B1C85EC3"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="8A8E6CE5-4BCC-6EA6-2526-BDB4F3B265C1" name="TBL_DISCUSSION_TBL_Repositorio_FK">
+<ind_PK_UK id="8A8E6CE5-4BCC-6EA6-2526-BDB4F3B265C1" name="DISCUSSION_REPOSITORIO">
 <createdBy>Lalos</createdBy>
 <createdTime>2024-02-22 20:49:12 UTC</createdTime>
 <ownerDesignName>GITHUB</ownerDesignName>

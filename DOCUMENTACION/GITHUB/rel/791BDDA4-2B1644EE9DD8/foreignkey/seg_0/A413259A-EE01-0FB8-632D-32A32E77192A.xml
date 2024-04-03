@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A413259A-EE01-0FB8-632D-32A32E77192A" containerWithKeyObject="186B4713-98DF-0B16-5A6C-3299625AF19C" localFKIndex="32CE7217-B100-C3E3-078A-6A3B17ED9E98" name="TBL_ALERTA_SEGURIDAD">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-03-31 04:21:05 UTC</createdTime>
+<ownerDesignName>GUTHUB</ownerDesignName>
+<importedID>8F643967-316B-F31A-57EB-CC6CA019019B</importedID>
+<referredTableLongName>TBL_REPOSITORIO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2962AD23-75F5-21FD-98A2-F0A97850212D</referredTableID>
+<keyObject>3BC8CE8E-4AF2-213E-7F8D-A9932EE8224E</keyObject>
+<referredKeyID>3BC8CE8E-4AF2-213E-7F8D-A9932EE8224E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_REPOSITORIO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

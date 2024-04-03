@@ -59,7 +59,7 @@
 <colUsage columnID="91B2ACEE-5674-E7E0-0529-AC39C0F66C4B"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="E44CFDA0-273F-CEB8-C64F-6637A8C23074" name="TBL_SPONSOR_PROPIO_TBL_SPONSOR_ELEGIBLE_FK">
+<ind_PK_UK id="E44CFDA0-273F-CEB8-C64F-6637A8C23074" name="TBL_SPONSOR_PROPIO">
 <createdBy>Lalos</createdBy>
 <createdTime>2024-02-22 23:07:52 UTC</createdTime>
 <ownerDesignName>GITHUB</ownerDesignName>

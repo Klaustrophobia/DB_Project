@@ -80,7 +80,7 @@
 <colUsage columnID="230E09FE-14DF-F2F0-BB88-CA9226D7D5A0"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="8FD6BF2A-98B1-89B1-3E7E-E0F0E3DF1431" name="TBL_SECRETOS_TBL_Repositorio_FK">
+<ind_PK_UK id="8FD6BF2A-98B1-89B1-3E7E-E0F0E3DF1431" name="TBL_SECRETOS">
 <createdBy>Lalos</createdBy>
 <createdTime>2024-02-20 23:53:53 UTC</createdTime>
 <ownerDesignName>GITHUB</ownerDesignName>

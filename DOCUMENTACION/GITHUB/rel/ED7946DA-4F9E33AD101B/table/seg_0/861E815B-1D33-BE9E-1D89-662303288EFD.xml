@@ -80,7 +80,7 @@
 <colUsage columnID="B023247B-AD02-5829-BBD1-1EFDDC8CC594"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="1C640EE1-972B-1B7E-46AB-D0B7B892A8BE" name="TBL_REGISTRO_PAQUETES_TBL_Repositorio_FK">
+<ind_PK_UK id="1C640EE1-972B-1B7E-46AB-D0B7B892A8BE" name="TBL_REGISTRO_PAQUETES">
 <createdBy>Lalos</createdBy>
 <createdTime>2024-02-20 23:40:15 UTC</createdTime>
 <ownerDesignName>GITHUB</ownerDesignName>

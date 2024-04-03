@@ -40,7 +40,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="FECHA_UNION" id="C57293AB-65AE-FEF5-D6E1-F1AB5336D602">
@@ -102,7 +103,7 @@
 <colUsage columnID="076C1EEC-27E2-4025-031D-B5A0A0563471"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="95A616D6-6E55-4DE5-29F9-C761E4924112" name="TBL_COLABORADORES_TBL_Repositorio_FK">
+<ind_PK_UK id="95A616D6-6E55-4DE5-29F9-C761E4924112" name="TBL_COLABORADORES">
 <createdBy>Lalos</createdBy>
 <createdTime>2024-02-19 23:36:05 UTC</createdTime>
 <ownerDesignName>GITHUB</ownerDesignName>

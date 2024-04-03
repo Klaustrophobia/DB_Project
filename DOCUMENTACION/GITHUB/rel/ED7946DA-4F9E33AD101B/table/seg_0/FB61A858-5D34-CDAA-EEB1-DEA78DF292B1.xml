@@ -57,7 +57,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="19245029-5877-DB08-78ED-90490A8FC594" name="TBL_CONFIG_ACCESO_REPOSITORIO_PK">
+<ind_PK_UK id="19245029-5877-DB08-78ED-90490A8FC594" name="CONFIG_ACCESO_REPOSITORIO">
 <createdBy>Lalos</createdBy>
 <createdTime>2024-02-20 23:50:19 UTC</createdTime>
 <ownerDesignName>GITHUB</ownerDesignName>
@@ -68,7 +68,7 @@
 <colUsage columnID="BB42C12A-38AC-4644-1B8D-60DE239972A9"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="29B6EA05-64CB-BF3C-D314-B7A134510F17" name="TBL_CONFIG_ACCESO_REPOSITORIO_TBL_Repositorio_FK">
+<ind_PK_UK id="29B6EA05-64CB-BF3C-D314-B7A134510F17" name="CONFIG_ACCESO_REPOSITORIOv2">
 <createdBy>Lalos</createdBy>
 <createdTime>2024-02-20 23:53:59 UTC</createdTime>
 <ownerDesignName>GITHUB</ownerDesignName>
