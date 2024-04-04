@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BA33F2C3-B3F4-E7D0-BD04-30EB1073E58F" name="TBL_MILESTONES">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-04-03 05:24:09 UTC</createdTime>
+<ownerDesignName>GITHUB</ownerDesignName>
+<importedID>AA20EA73-5F53-294E-017C-452548421927</importedID>
+<ordsAlias>table_22</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_MILESTONE" id="C0B52BA3-C019-7BD9-CB29-42FD2E1EFD2F">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-04-03 05:24:09 UTC</createdTime>
+<ownerDesignName>GITHUB</ownerDesignName>
+<importedID>F7F4ACC1-2435-801F-8C78-180408F6CF97</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_REPOSITORIO" id="43AF244C-6B08-D456-EB59-7162B7A5542D">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-04-03 05:24:09 UTC</createdTime>
+<ownerDesignName>GITHUB</ownerDesignName>
+<importedID>74F069CE-C0F8-BD76-B86E-2503615A72E9</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DA80CBF0-4083-89A0-310F-9D3F738DF0F5" referredColumn="AAA44EE6-4F8D-B90A-D98E-947E689656EE"/>
+</associations>
+</Column>
+<Column name="TITTLE_MILESTONE" id="87842FBB-06EC-157A-F9BC-B697062E97A8">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-04-03 05:24:09 UTC</createdTime>
+<ownerDesignName>GITHUB</ownerDesignName>
+<importedID>6D7FB521-9A5F-D55A-614F-C72620ECB8E3</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPTION_MILESTONE" id="DC6888CE-83E3-0C6D-C5F2-09C09D0D0967">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-04-03 05:24:09 UTC</createdTime>
+<ownerDesignName>GITHUB</ownerDesignName>
+<importedID>A8EF4F61-C1B7-8E5D-22C0-4D408DFFE222</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DUE_DATE" id="73081D8D-AA34-8B56-678A-97D742E8809B">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-04-03 05:24:09 UTC</createdTime>
+<ownerDesignName>GITHUB</ownerDesignName>
+<importedID>30AB4BC0-7E69-5BA6-C8FA-79F416AEE415</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="273DAECD-DA46-64E4-9B85-DDC1A7D43C82" name="TBL_MILESTONES_PK">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-04-03 05:24:09 UTC</createdTime>
+<ownerDesignName>GITHUB</ownerDesignName>
+<importedID>7CC0E61C-8052-7197-A222-7A78023ED032</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0B52BA3-C019-7BD9-CB29-42FD2E1EFD2F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C32087CD-6069-0715-1123-6F15AA5A68A1" name="TBL_MILESTONES">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-04-03 05:24:09 UTC</createdTime>
+<ownerDesignName>GITHUB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="43AF244C-6B08-D456-EB59-7162B7A5542D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

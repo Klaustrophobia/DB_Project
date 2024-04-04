@@ -1,12 +1,15 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="GUTHUB" id="9FDA80EB-C9F9-3942-DA0F-D735B1FEEE97" version="3.5">
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="GITHUB" id="5240BE68-79DA-3070-8AD3-B3CED9DB2AB3" version="3.5">
 <createdBy>Lalos</createdBy>
-<createdTime>2024-03-31 04:18:58 UTC</createdTime>
-<ownerDesignName>GUTHUB</ownerDesignName>
+<createdTime>2024-04-03 05:23:28 UTC</createdTime>
+<ownerDesignName>GITHUB</ownerDesignName>
 <capitalNames>false</capitalNames>
-<designId>9FDA80EB-C9F9-3942-DA0F-D735B1FEEE97</designId>
+<designId>5240BE68-79DA-3070-8AD3-B3CED9DB2AB3</designId>
 <usedDesignStorageDescriptors>
 <designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="32BF4EA5-2DCA-8F8B-EF90-476EEC8393B3">
+<designStoragePath>C:\Users\Lalos\Desktop\IS - CODE BRACH\BASES I - Vladimir\DB_Project\DOCUMENTACION\GITHUB</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="9FDA80EB-C9F9-3942-DA0F-D735B1FEEE97">
 <designStoragePath>C:\Users\Lalos\Desktop\IS - CODE BRACH\BASES I - Vladimir\DB_Project\DOCUMENTACION\GITHUB</designStoragePath>
 </designDescr>
 </usedDesignStorageDescriptors>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DA670A39-810F-D298-43FF-C55AFF264C12" containerWithKeyObject="F525762A-28BF-1A30-A146-480C7BAED0AC" localFKIndex="FFCCC909-4C6F-39BF-F7FA-2141B334C068" name="TBL_TAG_TBL_Repositorio_FK">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-04-03 05:24:09 UTC</createdTime>
+<ownerDesignName>GITHUB</ownerDesignName>
+<importedID>0659DADF-D365-B477-15B6-DB45F12E871B</importedID>
+<referredTableLongName>TBL_REPOSITORIO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F225DE1A-6E1E-72FC-B257-961F8E20A581</referredTableID>
+<keyObject>7F4A665F-087E-B2DF-835A-FDCE949040EE</keyObject>
+<referredKeyID>7F4A665F-087E-B2DF-835A-FDCE949040EE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_REPOSITORIO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

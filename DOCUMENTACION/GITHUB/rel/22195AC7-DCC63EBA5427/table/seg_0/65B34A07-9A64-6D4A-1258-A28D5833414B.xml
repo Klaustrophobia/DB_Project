@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="65B34A07-9A64-6D4A-1258-A28D5833414B" name="TBL_DEPLOYMENT">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-04-03 05:24:09 UTC</createdTime>
+<ownerDesignName>GITHUB</ownerDesignName>
+<importedID>6BCA6F8B-D1E4-109A-90F6-B05123A3F7E0</importedID>
+<ordsAlias>table_26</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_DEPLOY" id="F4FB6589-0360-FA56-EF75-70FFC0E7B642">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-04-03 05:24:09 UTC</createdTime>
+<ownerDesignName>GITHUB</ownerDesignName>
+<importedID>E2537B61-752C-C850-FD07-20427B172BA3</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_USUARIO" id="118A1571-7691-4745-B7C5-97ADD7D7828F">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-04-03 05:24:09 UTC</createdTime>
+<ownerDesignName>GITHUB</ownerDesignName>
+<importedID>AF715D86-2A48-2125-63C4-3879D190AC64</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F0FCB7E6-CDEE-B2D7-7A38-5B9A9E575482" referredColumn="0CD25D88-783B-8FCE-D6CE-E4936971235D"/>
+</associations>
+</Column>
+<Column name="ID_REPOSITORIO" id="81E1DE7B-92DA-6691-00CB-89C6DD243FD7">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-04-03 05:24:09 UTC</createdTime>
+<ownerDesignName>GITHUB</ownerDesignName>
+<importedID>669ED90D-0363-ABB7-E1E6-1B9A53DBE3FF</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8989B709-48B0-75EC-00C4-9CBD367B3AA5" referredColumn="AAA44EE6-4F8D-B90A-D98E-947E689656EE"/>
+</associations>
+</Column>
+<Column name="ENTORNO" id="1748758A-73B6-C65B-4999-A187DB3DCE1B">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-04-03 05:24:09 UTC</createdTime>
+<ownerDesignName>GITHUB</ownerDesignName>
+<importedID>58368F63-220D-81AB-34C5-DFD52CF6CDA4</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATE_DEPLOY" id="96DEAA66-4BFB-B6D8-1054-EB40FF378989">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-04-03 05:24:09 UTC</createdTime>
+<ownerDesignName>GITHUB</ownerDesignName>
+<importedID>119D3F64-BFE4-8BA2-13A2-2F9291829D24</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATUS" id="D752075C-1B94-6C8A-2055-6EABCAC411EA">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-04-03 05:24:09 UTC</createdTime>
+<ownerDesignName>GITHUB</ownerDesignName>
+<importedID>C295D751-120E-2619-583C-2AB9379B3C15</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8309F019-79CC-6C20-35F6-B2FB2DE31E9B" name="TBL_DEPLOYMENT_PK">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-04-03 05:24:09 UTC</createdTime>
+<ownerDesignName>GITHUB</ownerDesignName>
+<importedID>DA4378CA-3C02-D147-25C2-E216D6D209C7</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F4FB6589-0360-FA56-EF75-70FFC0E7B642"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BAEFFC79-799C-A7C0-4D8D-81EFE53DB442" name="DEPLOYMENT_REPOSITORIO">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-04-03 05:24:09 UTC</createdTime>
+<ownerDesignName>GITHUB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="81E1DE7B-92DA-6691-00CB-89C6DD243FD7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B6D08C7D-BD5A-87DB-8032-9EDBE0B96104" name="DEPLOYMENT_USUARIOS">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-04-03 05:24:09 UTC</createdTime>
+<ownerDesignName>GITHUB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="118A1571-7691-4745-B7C5-97ADD7D7828F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FD5D7608-49CE-84BA-BAEE-6A9C210F5B5E" containerWithKeyObject="BF0F48AE-0C63-06D1-356E-28A58AD6BEAA" localFKIndex="C3319591-0AC4-975A-D73A-E2A9357826FD" name="TBL_SPONSOR_PROPIO">
+<createdBy>Lalos</createdBy>
+<createdTime>2024-04-03 05:24:09 UTC</createdTime>
+<ownerDesignName>GITHUB</ownerDesignName>
+<importedID>993171E4-6751-7913-E825-C29D3E95FD77</importedID>
+<referredTableLongName>TBL_SPONSOR_ELEGIBLE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5FB8A02B-BB93-26A8-1D93-AE10E18075E2</referredTableID>
+<keyObject>7C7D6411-DB99-3FE2-C9B6-CBE66A706FF9</keyObject>
+<referredKeyID>7C7D6411-DB99-3FE2-C9B6-CBE66A706FF9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_SPONSOR_ELEGIBLE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,4 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="main_view" objectID="088ACD6E-27FB-0052-E62D-3B809C5890BC" name="Github" visible="true"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>
