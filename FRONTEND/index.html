@@ -18,26 +18,25 @@
     <p>Sign in to GitHub</p>
   </div>
 
-  <div class="login-container">
-    <form action="#" method="post">
-      <label for="username">Username or email address</label>
-      
-      <input type="text" id="username" name="username" required>
-      <label for="password">Password</label>
+  <div id="app" class="login-container">
+    <form @submit.prevent="login" method="POST" action="/login">
+      <label for="CORREO">Username or email address</label>
+      <input type="text" v-model="CORREO" id="CORREO" name="CORREO" required>
+      <label for="CONTRASENIA">Password</label>
       <br>
       <a1 href="#">Forgot password?</a1>
-      <input type="password" id="password" name="password" required>
-      <button type="submit" >Sign in</button>
+      <input type="password" v-model="CONTRASENIA" id="CONTRASENIA" name="CONTRASENIA" required>
+      <button type="submit">Sign in</button>
     </form>
   </div>
-<br>
+  <br>
 
   <div class="base">
-      <strong><a href="#">Sign in with a passkey</a></strong>
-           <div class="ultimo-div">  
-           <p1>Sign in to Github</p1>
-           <a href="CrearUsuario.html">Create an account</a> 
-      </div>
+    <strong><a href="#">Sign in with a passkey</a></strong>
+    <div class="ultimo-div">  
+      <p1>Sign in to Github</p1>
+      <a href="CrearUsuario.html">Create an account</a> 
+    </div>
   </div>
 
   <div class="letras-abajo">
@@ -49,9 +48,9 @@
       <p2>Manage Cookies</p2>
       <p2>Do not share my personal information</p2>
     </div>
-
   </div>
 
-
+  <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+  <script src="/js/app.js"></script>
 </body>
 </html>
